@@ -1,0 +1,99 @@
+
+Q**************************************************************************************
+
+
+
+Problem Description:
+
+The objective of this project is to maintain the accounts like saving account, withdrawing, 
+depositing money and applying loan to the user. Bank provides account number to the 
+customer for dealing transactions in the bank. At first a user registers himself/herself as 
+customer. After that account can be opened. A customer can open more than one account.
+
+
+Users of this project are:-
+
+• Accountant
+• Customer
+Roles of Accountant are:-
+
+• Login using his/her username and password
+• Adding new account for customer
+• Editing already available account
+• Removing the account by using account number
+• Viewing particular account details by giving account number
+• Viewing all the account details
+• Taking care of deposit and withdrawal operations
+
+Roles of Customer are:-
+
+• Login using his/her username and password
+• Transfer the money from his account to other account
+• Checking the transaction history
+
+
+//***********************************************************************************//
+Accountant:- AccId,Name,username,password,
+customer:- cusId,name,username,password,AccNo, amount;
+transSaction :- sender , receiver , amount,date,
+
+
+
+
++-----------------------------------------------------------+			
+|  ENTER YOUR NUMBER                            	    |
++-----------------------------------------------------------+			
+|                                               	    | 
+| 1. Add new account                      		    |
+| 2.Editing account                       		    |
+| 3.delect the account by using account number  	    |
+| 4.Viewing particular account details account number       |
+| 5.Viewing all the account details          		    |
+| 6.Taking care of deposit and withdrawal operations 	    |
+| 7.Exit                                    		    |
++-----------------------------------------------------------+
+
+
+
++-----------------------------------------------------------+			
+|  ENTER YOUR NUMBER                            	    |
++-----------------------------------------------------------+			
+|                                               	    | 
+| 1.Transfer the money from his account to other account    |
+| 2.Checking the transaction history                        |
+| 3. Exit  						    |
++-----------------------------------------------------------+
+
+
+
+
+
+1.
+create Table Accountant(
+Aid int primary key Auto_increment,
+Name varchar(20),
+UserName varchar(20) unique,
+Password int unique,
+);
+
+2.
+create Table Customer(
+cid int  primary key Auto_increment,
+name varchar(20) ,
+UserName varchar(20) unique,
+Password int unique,
+AccountNo int unique,
+Amount int unique
+)
+
+create table transSaction(
+Tid int primary key Auto_increment,
+Sender varchar(20),
+Receiver varchar(20),
+amount int ,
+data varchar(20)
+)
+UPDATE Customer SET name = ? , UserName = ?,Password=?,AccountNo=?,Amount=? WHERE cid = ?;
+
+
+

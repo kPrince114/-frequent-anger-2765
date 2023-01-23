@@ -2,11 +2,11 @@
 Online Banking System
 
 
-Users of this project are:-
+Users of this project are
 
 . Accountant
 . Customer
-# Roles of Accountant are:-
+# Roles of Accountant are
 
 . Login using his/her username and password 
 . Adding new account for customer

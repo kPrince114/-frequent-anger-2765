@@ -10,13 +10,12 @@ Online Banking System
 <h2> Roles of Accountant are </h2>
 
 <p> 1.Login using his/her username and password </p>
-<p>2.Login using his/her username and password  </p>
-<p>3.Login using his/her username and password 
-</p><p>4.Adding new account for customer</p> 
-<p> 5.Editing already available account</p>
-<p>6.Removing the account by using account number</p>
-<p>7. Viewing particular account details by giving account number </p>
-<p>8.Viewing all the account details </p>9.Taking care of deposit and withdrawal operations</p> 
+<p> 2.Adding new account for customer</p> 
+<p> 3.Editing already available account</p>
+<p> 4.Removing the account by using account number</p>
+<p> 5. Viewing particular account details by giving account number </p>
+<p> 6.Viewing all the account details </p>
+<p> 7.Taking care of deposit and withdrawal operations</p> 
 
 <h2> Roles of Customer are:- </h2>
 <p>1.Login using his/her username and password </p>

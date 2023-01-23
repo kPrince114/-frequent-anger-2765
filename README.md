@@ -2,22 +2,26 @@
 Online Banking System
 
 
-Users of this project are
+<h1 style="color: green;">Users of this project are</h1>
 
-. Accountant
-. Customer
-# Roles of Accountant are
+<h3> .Accountant</h3>
+<h3> .Customer</h3>
 
-. Login using his/her username and password 
-. Adding new account for customer
-• Editing already available account
-• Removing the account by using account number
-• Viewing particular account details by giving account number
-• Viewing all the account details
-• Taking care of deposit and withdrawal operations
+<h2> Roles of Accountant are </h2>
 
-# Roles of Customer are:-
+<p> 1.Login using his/her username and password </p>
+<p>2.Login using his/her username and password  </p>
+<p>3.Login using his/her username and password 
+</p><p>4.Adding new account for customer</p> 
+<p> 5.Editing already available account</p>
+<p>6.Removing the account by using account number</p>
+<p>7. Viewing particular account details by giving account number </p>
+<p>8.Viewing all the account details </p>9.Taking care of deposit and withdrawal operations</p> 
 
-• Login using his/her username and password
-• Transfer the money from his account to other account
-• Checking the transaction history
+<h2> Roles of Customer are:- </h2>
+<p>1.Login using his/her username and password </p>
+<p>2.Transfer the money from his account to other account</p>
+<p>3.Checking the transaction history </p>
+
+
+
